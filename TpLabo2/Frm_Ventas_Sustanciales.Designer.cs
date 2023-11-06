@@ -161,6 +161,7 @@
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnMostrarReporte
             // 
@@ -188,6 +189,7 @@
             this.Controls.Add(this.gbFechas);
             this.Name = "Frm_Ventas_Sustanciales";
             this.Text = "Frm_Ventas_Sustanciales";
+            this.Load += new System.EventHandler(this.Frm_Ventas_Sustanciales_Load);
             this.gbFechas.ResumeLayout(false);
             this.gbFechas.PerformLayout();
             this.gbMonto.ResumeLayout(false);
